@@ -1,0 +1,3 @@
+#aggregate function
+aggregate(data$weight, list(diet = data$Diet), mean)
+aggregate(values ~ column, dataset, func)
