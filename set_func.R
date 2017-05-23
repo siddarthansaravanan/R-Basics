@@ -1,0 +1,5 @@
+setA<-c("a", "b", "c", "d", "e")
+setB<-c("d", "e", "f", "g")
+union(setA,setB)
+intersect(setA,setB)
+setdiff(setA,setB)
