@@ -1,7 +1,4 @@
-vrm(list = ls())
-
-install.packages("reshape")
-
+rm(list = ls())
 library(reshape)
 colors = c("red", "yellow", "green", "violet", "orange","blue", "pink", "cyan") 
-hist(duration,right=FALSE,col=colors,main="Old Faithful Eruptions",   xlab="Duration minutes")
+hist(1:10,right=FALSE,col=colors,main="Old Faithful Eruptions",   xlab="Duration minutes")
