@@ -1,3 +1,3 @@
 #aggregate function
-aggregate(data$weight, list(diet = data$Diet), mean)
-aggregate(values ~ column, dataset, func)
+dt<-data.frame(mtcars)
+aggregate(dt$mpg,list(dt$cyl), mean)
