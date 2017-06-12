@@ -41,7 +41,7 @@ vapply(x, FUN = length, FUN.VALUE = 0L)
 #mapply - For when you have several data structures (e.g. vectors, lists) 
 #and you want to apply a function to the 1st elements of each, and then the 2nd elements 
 #of each, etc.,coercing the result to a vector/array as in sapply
-
+#multivariate sapply
 mapply(sum, 1:5, 1:5,1:5) 
 
 mapply(sum, 1:4, 4:1)
